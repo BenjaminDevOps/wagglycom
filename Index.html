@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetCare AI+ | Santé Animale Nouvelle Génération</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 text-white font-[Inter]">
+
+<!-- HEADER -->
+<header class="flex justify-between items-center p-6">
+<h1 class="text-xl font-bold">🐾 PetCare AI+</h1>
+<button class="bg-indigo-500 px-4 py-2 rounded-xl font-semibold">Télécharger</button>
+</header>
+
+<!-- HERO -->
+<section class="text-center px-6 py-20">
+<h2 class="text-5xl font-extrabold leading-tight mb-6">
+La santé animale entre dans <span class="text-indigo-400">l’ère de l’IA</span>
+</h2>
+<p class="text-lg opacity-80 max-w-2xl mx-auto">
+Diagnostiquez, suivez et améliorez la vie de votre compagnon grâce à une expérience ludique et intelligente.
+</p>
+<div class="mt-8 flex justify-center gap-4">
+<button class="bg-green-400 text-black px-6 py-3 rounded-2xl font-bold">Essai gratuit</button>
+<button class="border border-white px-6 py-3 rounded-2xl">Voir la démo</button>
+</div>
+</section>
+
+<!-- FEATURES -->
+<section class="px-6 py-16">
+<h3 class="text-3xl font-bold text-center mb-12">Une app, tout pour votre animal</h3>
+<div class="grid md:grid-cols-4 gap-6">
+<div class="bg-white/10 p-6 rounded-2xl backdrop-blur">
+<h4 class="font-bold mb-2">🤖 Diagnostic IA</h4>
+<p class="opacity-70">Analyse instantanée des symptômes avec recommandations intelligentes.</p>
+</div>
+<div class="bg-white/10 p-6 rounded-2xl">
+<h4 class="font-bold mb-2">🏃 Podomètre</h4>
+<p class="opacity-70">Suivez l’activité et gagnez des récompenses.</p>
+</div>
+<div class="bg-white/10 p-6 rounded-2xl">
+<h4 class="font-bold mb-2">📊 Carnet santé</h4>
+<p class="opacity-70">Historique, vaccins et rappels automatiques.</p>
+</div>
+<div class="bg-white/10 p-6 rounded-2xl">
+<h4 class="font-bold mb-2">🛍️ Shop récompenses</h4>
+<p class="opacity-70">Réductions exclusives débloquées via vos points.</p>
+</div>
+</div>
+</section>
+
+<!-- GAMIFICATION -->
+<section class="px-6 py-16 text-center">
+<h3 class="text-3xl font-bold mb-6">Transformez la santé en jeu 🎮</h3>
+<p class="opacity-70 max-w-xl mx-auto mb-10">
+Plus vous prenez soin de votre animal, plus vous gagnez de récompenses.
+</p>
+<div class="flex justify-center gap-6 flex-wrap">
+<div class="bg-indigo-500/20 p-6 rounded-2xl">
+🏆 Badges
+</div>
+<div class="bg-indigo-500/20 p-6 rounded-2xl">
+🎯 Missions
+</div>
+<div class="bg-indigo-500/20 p-6 rounded-2xl">
+💰 Réductions
+</div>
+</div>
+</section>
+
+<!-- SOCIAL PROOF -->
+<section class="px-6 py-16 text-center">
+<h3 class="text-3xl font-bold mb-8">Déjà adopté par des milliers de propriétaires</h3>
+<p class="text-2xl">⭐ 4.8 / 5</p>
+<p class="opacity-70">+50 000 utilisateurs satisfaits</p>
+</section>
+
+<!-- PRICING -->
+<section class="px-6 py-16">
+<h3 class="text-3xl font-bold text-center mb-12">Choisissez votre expérience</h3>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="bg-white/10 p-6 rounded-2xl">
+<h4 class="font-bold">Gratuit</h4>
+<p class="opacity-70">Fonctions de base</p>
+</div>
+<div class="bg-indigo-500 p-6 rounded-2xl text-black scale-105">
+<h4 class="font-bold">Premium</h4>
+<p>Diagnostic illimité + gamification</p>
+</div>
+<div class="bg-white/10 p-6 rounded-2xl">
+<h4 class="font-bold">Pro</h4>
+<p class="opacity-70">Accès expert + offres exclusives</p>
+</div>
+</div>
+</section>
+
+<!-- POPUP PREMIUM -->
+<div id="popup" class="fixed bottom-6 right-6 bg-indigo-600 p-6 rounded-2xl shadow-xl hidden">
+<h4 class="font-bold text-lg mb-2">🔥 Offre limitée</h4>
+<p>-50% sur Premium aujourd’hui</p>
+<button onclick="closePopup()" class="mt-3 bg-black text-white px-4 py-2 rounded">OK</button>
+</div>
+
+<script>
+setTimeout(()=>{
+ document.getElementById('popup').classList.remove('hidden');
+},4000);
+function closePopup(){
+ document.getElementById('popup').classList.add('hidden');
+}
+</script>
+
+<!-- FOOTER -->
+<footer class="text-center py-10 opacity-50">
+© 2026 PetCare AI+
+</footer>
+
+</body>
+</html>
